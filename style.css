@@ -1,0 +1,72 @@
+/* ================Dont change any code below here======================= */
+body, html {
+	height: 100%;
+	margin: 0;
+  }
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.bg1 {
+	background-image: url("hills.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg2 {
+	background-image: url("underwater.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* ================Start your code using class below ======================= */
+/* Hint */
+/* try to use the "position" property with value either static/ relative/ absolute */
+/* try to use the top, left, right, bottom properties with pixel or percentage as value */
+.telebort-logo {
+	width: 5%;
+	/*========= students' answer (3 lines)=========== */
+	position: absolute;
+	top: 10px;
+	left: 90%;
+}
+
+.telebort-mascot {
+	/*========= students' answer (2 lines)=========== */
+	position: relative;
+	left: 10%;
+}
+
+.parent {
+	/*========= students' answer (1 line)=========== */
+	position: relative;
+}
+
+.tree-position {
+	width: 300px;
+	/*========= students' answer (3 lines)=========== */
+	position: absolute;
+	left: 20px;
+	bottom: 70px;
+}
+
+.flower-position {
+	width: 100px;
+	/*========= students' answer (3 lines)=========== */
+	position: absolute;
+	right: 50px;
+	bottom: 0px;
+}
+
+.pearl-position {
+	width: 300px;
+	/*========= students' answer (3 lines)=========== */
+	position: absolute;
+	right: 50%;
+	bottom: 0px;
+}
